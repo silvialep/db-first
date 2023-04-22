@@ -1,0 +1,20 @@
+Modellizzare la struttura di una tabella per memorizzare tutti i dati riguardanti delle auto usate messe in vendita da un concessionario.
+
+
+license_plate - VARCHAR(7) - Primary Key, UNIQUE, NOT_NULL
+brand_name - VARCHAR(25) - NOT_NULL
+car_model - VARCHAR(25) - NOT_NULL
+first_registration - DATE - NOT_NULL
+mileage - MEDIUMINT - NOT_NULL
+fuel_type - VARCHAR(15) - NOT_NULL
+gearbox - VARCHAR(9) - NOT_NULL
+color - VARCHAR(25) - NOT_NULL
+price - MEDIUMINT - NOT_NULL
+extras - VARCHAR(255) - NULL
+seats - TINYINT - NOT_NULL
+doors - TINYINT - NOT_NULL
+power - VARCHAR(10) - NOT_NULL
+engine_size - VARCHAR(10) - NOT_NULL
+gears - TINYINT - NOT_NULL
+cylinders - TINYINT - NOT_NULL
+last_servicing - DATE - NOT_NULL
